@@ -167,9 +167,13 @@ shinyUI(navbarPage("Math Brushups",
                                                 offset = 4),
                                           column(4,    
                                                 numericInput("b", 
-                                                            label = h5("b"), 
-                                                            value = 2)
-                                                ))
+                                                            label = h5("b"),
+                                                            value = 2))),
+                                 fluidRow(width="100%",
+                                           column(12, 
+                                                  p("**For a<b and a NE b"), 
+                                                  offset=4 ))              
+                                               
                                ))
                     
                   ))
